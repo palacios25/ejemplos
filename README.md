@@ -1,1 +1,16 @@
-# Tarea-5-JS-Vectores
+# Tarea 5 JS Vectores
+
+## Instrucciones
+Utilizando HTML+CSS+JS resuelva los siguientes problemas
+
+## Problema 1 Reservación de autobús
+Escribir un programa que permita reservar asientos en un autobús (35 lugares disponibles). La página tendrá 1 caja de texto para que el usuario indique el número de asiento que quiere reservar y otra caja de texto para que el usuario capture el nombre de la persona a la que se asignará ese lugar. También, se incluirá un botón para realizar la reserviación. Al presionar el botón el programa intentará realizar la reservación, si el lugar esta disponible se realizará la reservación, pero si el lugar está ocupado el programa mostará un mensaje indicando que el lugar ya está ocupado y deberá seleccionar otro lugar. También la pagina mostará en todo momento una tabla en donde se muestren todos los lugares del autobus, los que estén disponibles tendrán la leyenda disponible, y los que estén ocupados tendrán el nombre de la persona que reservó ese lugar
+
+## Problema 2 Sorteo
+Escribir un programa que permita registrar los nombres de las personas que participarán en un sorteo. El sorteo tiene un máximo de 10 boletos. La página incluirá una caja de texto en la que se registre el número que la persona quiere comprar y en otra caja se registrará el nombre de la persona que adquirió el boleto. La página incluirá 2 botones. El primer botón se utilizará para realizar la venta de un boleto. Al presionarlo el programa revisará si ese número está disponible, si está disponible se realizará la venta, pero, si no está disponible, mostrará un mensaje al usuario indicando que ese boleto ya está vendido y que deberá seleccionar otro. El segundo botón se utilizará para realizar el sorteo. Al presionarlo el programa se asegurará que todos los boletos ya estén vendidos. Si no están vendidos todos, entonces mostrará un mensaje al usuario indicando que el boleto no se puede realizar por que no se han vendido todos los boletos. Si ya se vendieron todos los boletos, entonces el programa generará un número aleatorio entre 1 y 10 y mostrará el nombre del ganador. En todo momento se podrá ver una lista de los boletos vendidos y disponibles.
+
+## Problema 3 Playlist
+Escribir una página que permita generar un playlist de canciones. La página incluirá una caja de texto y un botón. En la caja de texto el usuario escribirá el nombre de una canción y al presionar el botón se agregará esa canción al playlist. La playlist se deberá mostrar en todo momento en la página y deberá estar ordenada alfabéticamente. La página también incluirá otro botón con la leyenda 'reproducir' al presionar el botón se generará un número aleatorio que esté dentro del rango del tamaño de la lista y se mostrará el nombre de la canción que se está reproduciendo. Cada vez que se presione el botón se generará un nuevo número aleatorio y se actualizará el nombre de la canción.
+
+## Problema 4 Agenda
+Escribir un programa que permita guardar los datos de una agenda (nombre y número telefónico). La página incluirá 2 cajas de texto, en una se capturará el nombre de la persona y en otra el número telefónico. También incluirá un botón con la leyenda 'agregar'. Al presionar el botón se agregará ese nombre y número telefónico a la agenda 
