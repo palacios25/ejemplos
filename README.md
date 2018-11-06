@@ -3,6 +3,18 @@
 ## Instrucciones
 Utilizando HTML+CSS+JS resuelva los siguientes problemas
 
+## Problema 1 Vector con números aleatorios
+Escribir una página que contenga una caja de texto y un botón. En la caja de texto el usuario capturará el tamaño del vector que desea generar. Al presionar el botón la página generará un vector del tamaó indicado con números generados de manera aletoria, entre 0 y 100;
+
+## Problema 2 Vector con números aleatorios con opción de búsqueda
+
+## Problema 3 Vector con números aleatorios con opción para realizar reemplazos
+
+## Problema 4 Vector con números aleatorios con opción para eliminar elementos
+
+## Problema 5 Lista de asistencia
+Escribir un programa que permita registrar una lista de asistentes a un curso. La página incluirá una caja de texto y un botón. En la caja de texto se capturará el nombre del asistente y al presionar el botón se agregará ese nombre a la lista. La página mostrará en todo momento la lista de asistentes ordenada alfabéticamente, así como 
+
 ## Problema 1 Reservación de autobús
 Escribir un programa que permita reservar asientos en un autobús (35 lugares disponibles). La página tendrá 1 caja de texto para que el usuario indique el número de asiento que quiere reservar y otra caja de texto para que el usuario capture el nombre de la persona a la que se asignará ese lugar. También, se incluirá un botón para realizar la reserviación. Al presionar el botón el programa intentará realizar la reservación, si el lugar esta disponible se realizará la reservación, pero si el lugar está ocupado el programa mostará un mensaje indicando que el lugar ya está ocupado y deberá seleccionar otro lugar. También la pagina mostará en todo momento una tabla en donde se muestren todos los lugares del autobus, los que estén disponibles tendrán la leyenda disponible, y los que estén ocupados tendrán el nombre de la persona que reservó ese lugar
 
@@ -13,4 +25,9 @@ Escribir un programa que permita registrar los nombres de las personas que parti
 Escribir una página que permita generar un playlist de canciones. La página incluirá una caja de texto y un botón. En la caja de texto el usuario escribirá el nombre de una canción y al presionar el botón se agregará esa canción al playlist. La playlist se deberá mostrar en todo momento en la página y deberá estar ordenada alfabéticamente. La página también incluirá otro botón con la leyenda 'reproducir' al presionar el botón se generará un número aleatorio que esté dentro del rango del tamaño de la lista y se mostrará el nombre de la canción que se está reproduciendo. Cada vez que se presione el botón se generará un nuevo número aleatorio y se actualizará el nombre de la canción.
 
 ## Problema 4 Agenda
-Escribir un programa que permita guardar los datos de una agenda (nombre y número telefónico). La página incluirá 2 cajas de texto, en una se capturará el nombre de la persona y en otra el número telefónico. También incluirá un botón con la leyenda 'agregar'. Al presionar el botón se agregará ese nombre y número telefónico a la agenda 
+Escribir un programa que permita guardar los datos de una agenda (nombre y número telefónico). La página incluirá 2 cajas de texto, en una se capturará el nombre de la persona y en otra el número telefónico. También incluirá un botón con la leyenda 'agregar'. Al presionar el botón se agregará ese nombre y número telefónico a la agenda. Para guardar esta información el programa utilizará 2 vectores, uno para guardar los nombres y otro para guardar los números telefónicos. La página mostrará en todo momento todos los nombres y números telefónicos.
+
+## Problema 5 Agenda con búsqueda
+Modificar el problema 4, agregando otra caja de texto y otro botón. En la caja de texto el programa escribirá el nombre o parte de el nombre de una persona. Al presionar el botón la página mostrará los nombres y números de teléfono de todas las personas cuyo nombre inicia con lo que el usuario escribió en la caja de texto.
+
+
