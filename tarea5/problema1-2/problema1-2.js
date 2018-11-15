@@ -39,12 +39,11 @@ function problema2(){
         var cell = row.insertCell(0);
         cell.innerHTML = v[i];
 
-        if(v[i] === ver){
-            cell.style.backgroundcolor = "#f5a9a9";
-            contador++;
+        if(v[i] === ver){ 
+             contador++;
         }
     }
     var row = resultado.insertRow(-1);
     var cell = row.insertCell(0);
-    cell.innerHTML = 'El numero ' + ver + ' se encontro' + contador + 'veces';
+    cell.innerHTML = 'El numero ' + ver + ' se encontro ' + contador + 'veces';
 }
