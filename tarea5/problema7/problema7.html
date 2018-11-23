@@ -3,21 +3,26 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Problema 5</title>
+    <title>Problema 7</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="problema5.css" />
 </head>
 <body>
     <form>
         <div>
-            <label for="nombre">Nombre del alumno</label>
-            <input type="text" id="nombre">
+            <label for="nombre">Numero de asiento a reservar</label>
+            <input type="number" id="numero">
         </div>
         <div>
-            <button id="btnUno" type="button">Agregar nombre</button>
+            <label for="nombre">Nombre de persona que reserva</label>
+            <input type="text" id="persona">
+        </div>
+        <div>
+            <button id="btnUno" type="button">Hacer reservacion</button>
         </div>
     </form>
     <table id="resultado"></table>
+    <p id="mensaje"></p>
 </body>
 <script src="problema5.js"></script>
 </html>
