@@ -4,17 +4,33 @@ var btnUno = document.querySelector('#btnUno');
 var resultado = document.querySelector('#resultado');
 var mensaje = document.querySelector('#mensaje');
 
+var v=[];
+var n=[];
 btnUno.addEventListener('click' , problema7);
 
-var v = [];
-function problema7(){
-    lista.innerHTML="";
-    var n = Number(numero.value);
-    v.push(n);
-    v.sort();
-    for (i=0;i<v.length;i++) {
-    var row = lista.insertRow(-1);
+
+function inicio(){
+    resultado.innerHTML="";
+    for (i=0;i<= 35;i++) {
+        v[i]="Disponible";
+        n[i]=i;
+    var row = resultado.insertRow(-1);
     var cell = row.insertCell(0);
-    cell.innerHTML = v[i];
-    }
+    var cell2 = row.insertCell(1);
+    cell.innerHTML = n[i];
+    cell2.innerHTML = v[i];
+    }  
+}
+
+function problema7(){
+    resultado.innerHTML="";
+    for (i=0;i<= 35;i++) {
+        v[i]="Disponible";
+        n[i]=i;
+    var row = resultado.insertRow(-1);
+    var cell = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    cell.innerHTML = n[i];
+    cell2.innerHTML = v[i];
+    }  
 }

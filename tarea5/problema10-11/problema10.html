@@ -1,11 +1,11 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Problema 10 y 11</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="problema10.css" />
 </head>
 <body>
     <form>
@@ -14,14 +14,22 @@
             <input type="text" id="nombre">
         </div>
         <div>
-            <label for="nombre">Numero telefonico</label>
+            <label for="number">Numero telefonico</label>
             <input type="number" id="numero">
+        </div>
+        <div>
+            <label for="buscar">Nombre a buscar</label>
+            <input type="text" id="buscar">
         </div>
         <div>
             <button id="btnUno" type="button">Agregar</button>
         </div>
+        <div>
+            <button id="btnDos" type="button">Buscar</button>
+        </div>
     </form>
     <table id="agenda"></table>
+    <table id ="resultado"></table>
 </body>
 <script src="problema10.js"></script>
 </html>

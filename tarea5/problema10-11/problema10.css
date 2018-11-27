@@ -1,13 +1,11 @@
-#lista{
+#agenda{
     position: absolute;
     left:150px;
     top:150px;
-
 }
 
-#reproducida{
+#resultado{
     position: absolute;
-    left:150px;
+    left:300px;
     top:150px;
-    
 }

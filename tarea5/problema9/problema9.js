@@ -1,16 +1,17 @@
 var nombre = document.querySelector('#nombre');
 var btnUno = document.querySelector('#btnUno');
+var btnDos = document.querySelector('#btnDos');
 
 var lista = document.querySelector('#lista');
-
+var reproducida = document.querySelector('#reproducida');
 
 btnUno.addEventListener('click' , problema9);
+btnDos.addEventListener('click' , reproducir);
 
 
-
+var v = [];
 function problema9(){ 
     lista.innerHTML="";
-    var v = [];
     var n = nombre.value;
     v.push(n);
     v.sort();
@@ -21,3 +22,10 @@ function problema9(){
     }
 }
 
+function reproducir(){
+    reproducida.innerHTML = "";
+    var i = 0;
+    i=Math.trunc(Math.random()*v.length-1);
+    reproducida.innerHTML = "La cancion que se esta reproduciendo es " + v[i];
+    
+}
